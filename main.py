@@ -120,6 +120,7 @@ def generate_dot_mod_file(mod_title_name,
                           mod_file_name,
                           mod_tags,
                           mod_image_file_path,
+                          mod_supported_version,
                           out_dir_path):
     """
     .modファイルを作る
@@ -127,6 +128,7 @@ def generate_dot_mod_file(mod_title_name,
     :param mod_file_name: zipファイルの名前（.zipを含まない）
     :param mod_tags: Set<String>型
     :param mod_image_file_path:
+    :param mod_supported_version:
     :param out_dir_path: 出力ディレクトリのパス
     :return: 出力ファイルパス
     """
@@ -140,7 +142,8 @@ def generate_dot_mod_file(mod_title_name,
             'name="{}"'.format(mod_title_name),
             'archive="mod/{}.zip"'.format(mod_file_name),
             'tags={}'.format("{" + " ".join(map(lambda c: '"{}"'.format(c), mod_tags)) + "}"),
-            'picture="{}"'.format(mod_image_file_path)
+            'picture="{}"'.format(mod_image_file_path),
+            'supported_version="{}"'.format(mod_supported_version)
         ]
 
         fw.write("\n".join(lines))
@@ -201,7 +204,8 @@ def pack_mod(out_file_path,
              mod_title_name,
              mod_file_name,
              mod_tags,
-             mod_image_file_path):
+             mod_image_file_path,
+             mod_supported_version):
     with tempfile.TemporaryDirectory() as temp_dir_path:
         # .modファイルを作成する
         generate_dot_mod_file(
@@ -209,6 +213,7 @@ def pack_mod(out_file_path,
             mod_file_name=mod_file_name,
             mod_tags=mod_tags,
             mod_image_file_path=mod_image_file_path,
+            mod_supported_version=mod_supported_version,
             out_dir_path=temp_dir_path)
 
         # zipをコピー
@@ -245,10 +250,11 @@ def main():
         mod_zip_path=core_mod_zip_file_path,
         mod_title_name="JPMOD Main 1: Fonts and UI",
         mod_tags={"Translation", "Localisation"},
+        mod_supported_version="1.28.*.*",
         mod_image_file_path="title.jpg")
 
     print("mod_pack_file_path:{}".format(mod_pack_file_path))
-    
+
     # S3にアップロード from datetime import datetime as dt
     from datetime import datetime as dt
     cdn_url = upload_mod_to_s3(
