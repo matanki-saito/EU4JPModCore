@@ -840,7 +840,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "RIVALS"
-			maxWidth = 64
+			maxWidth = 100 # maxWidth = 64
 			maxHeight = 20
 			fixedsize = yes
 			truncate = yes
