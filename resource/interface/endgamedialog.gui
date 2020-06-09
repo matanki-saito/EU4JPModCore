@@ -135,7 +135,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""	
-			maxWidth = 16
+			maxWidth = 50 # maxWidth = 16
 			maxHeight = 32	
 			format = left
 			pdx_tooltip = "FE_IRONMAN"
