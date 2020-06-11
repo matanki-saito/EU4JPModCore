@@ -917,6 +917,43 @@ bitmapfonts = {
 		}
 	}	
 	
+	bitmapfont = {
+		name = "event_title"
+#		path = "gfx/fonts/vic_29s"
+		path = "gfx/fonts/EventTitle"
+		color = 0xffffffff
+		
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+		}
+	}
+	bitmapfont = {
+		name = "event_desc"
+#		path = "gfx/fonts/vic_18"
+		path = "gfx/fonts/EventDesc"
+		color = 0xff000000	
+
+		textcolors = {
+			G = { 24 112 26 }
+			R = { 124 24 24 }
+			Y = { 0 0 0 }
+		}
+	}
+	bitmapfont = {
+		name = "event_option"
+#		path = "gfx/fonts/vic_18"
+		path = "gfx/fonts/EventOption"
+		color = 0xffffffff
+				
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+		}
+	}
+
 }
 
 
