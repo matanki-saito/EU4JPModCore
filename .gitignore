@@ -106,5 +106,7 @@ venv.bak/
 .idea
 *.iml
 mod
-tmp
-out
+out/
+tmp/
+credentials.json
+settings.yaml
