@@ -920,7 +920,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "event_title"
 #		path = "gfx/fonts/vic_29s"
-		path = "gfx/fonts/EventTitle"
+#		path = "gfx/fonts/EventTitle"
+		path = "gfx/fonts/YuMincho29Demi"
 		color = 0xffffffff
 		
 		textcolors = {
@@ -932,7 +933,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "event_desc"
 #		path = "gfx/fonts/vic_18"
-		path = "gfx/fonts/EventDesc"
+#		path = "gfx/fonts/EventDesc"
+		path = "gfx/fonts/YuMincho18Demi"
 		color = 0xff000000	
 
 		textcolors = {
@@ -944,7 +946,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "event_option"
 #		path = "gfx/fonts/vic_18"
-		path = "gfx/fonts/EventOption"
+#		path = "gfx/fonts/EventOption"
+		path = "gfx/fonts/YuMincho18Demi"
 		color = 0xffffffff
 				
 		textcolors = {
