@@ -418,8 +418,8 @@ guiTypes = {
 						position = { x = 50 y = 7 }
 						font = "vic_22"
 						format = left
-						maxWidth = 260
-						maxHeight = 45
+						maxWidth = 600 # maxWidth = 260
+						maxHeight = 125 # maxHeight = 45
 						fixedsize = yes
 						alwaystransparent = yes
 					}
