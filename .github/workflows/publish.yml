@@ -7,7 +7,7 @@ on:
   repository_dispatch:
     types: [new_font_release]
   push:
-    branches: [ master,develop ]
+    branches: [ master ]
 
 jobs:
   build:
