@@ -54,7 +54,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "cloudgames_tab"
-				position = { x = -10230 y = -10102 }
+				position = { x = -10230 y = -10102 } # position = { x = 230 y = 102 }
 				quadTextureSprite ="GFX_tab_small_116"	
 				Orientation = "UPPER_LEFT"
 			}
@@ -76,7 +76,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "cloudgames_label"
-				position = { x = -10236 y = -10112}
+				position = { x = -10236 y = -10112} # position = { x = 236 y = 112}
 				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
