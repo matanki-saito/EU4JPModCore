@@ -379,14 +379,14 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "religious_school_name"
-				position = { x = 50 y = 156 }
+				position = { x = 85 y = 156 } # x = 50
 				textureFile = ""
-				font = "vic_18"
+				font = "Arial12" # font = vic_18
 				borderSize = {x = 4 y = 4}	
 				text = ""
 				maxWidth = 100
 				maxHeight = 32
-				format = right
+				format = center # right
 				fixedsize = yes
 			}
 

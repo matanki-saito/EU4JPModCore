@@ -270,7 +270,7 @@ def main():
         mod_zip_path=core_mod_zip_file_path,
         mod_title_name="JPMOD Main 1: Fonts and UI",
         mod_tags={"Translation", "Localisation"},
-        mod_supported_version="1.31.*.*",
+        mod_supported_version="1.32.*.*",
         mod_image_file_path="title.jpg")
 
     print("mod_pack_file_path:{}".format(mod_pack_file_path))
