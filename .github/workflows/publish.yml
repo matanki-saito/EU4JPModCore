@@ -8,7 +8,11 @@ on:
     types: [ new_font_release ]
   push:
     branches: [ master ]
-
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Description'
+        required: false
 jobs:
   build:
 
