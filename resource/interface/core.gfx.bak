@@ -24,51 +24,22 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "icon_link_frame"
-		texturefile = "gfx/interface/icon_link_frame.dds"
-		noOfFrames = 1
-	}
-	spriteType = {
-		name = "homepage"
-		texturefile = "gfx/interface/icon_homepage.dds"
-		noOfFrames = 1	
-	}
-	spriteType = {
 		name = "forum"
-		texturefile = "gfx/interface/icon_forum.dds"
+		texturefile = "gfx//interface//icon_forum.dds"
 		noOfFrames = 1
+		
 	}
 	spriteType = {
 		name = "facebook"
-		texturefile = "gfx/interface/icon_facebook.dds"
+		texturefile = "gfx//interface//icon_facebook.dds"
 		noOfFrames = 1
+		
 	}
 	spriteType = {
 		name = "twitter"
-		texturefile = "gfx/interface/icon_twitter.dds"
+		texturefile = "gfx//interface//icon_twitter.dds"
 		noOfFrames = 1
 	}
-	spriteType = {
-		name = "discord"
-		texturefile = "gfx/interface/icon_discord.dds"
-		noOfFrames = 1
-	}
-	spriteType = {
-		name = "instagram"
-		texturefile = "gfx/interface/icon_instagram.dds"
-		noOfFrames = 1
-	}
-	spriteType = {
-		name = "youtube"
-		texturefile = "gfx/interface/icon_youtube.dds"
-		noOfFrames = 1
-	}
-	spriteType = {
-		name = "wiki"
-		texturefile = "gfx/interface/icon_wiki.dds"
-		noOfFrames = 1
-	}
-
 	spriteType = {
 		name = "login_logout"
 		texturefile = "gfx//interface//button_login_logout.dds"
@@ -153,6 +124,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_socialview_icon"
 		texturefile = "gfx/interface/icons/pi_icon.dds"
+	}
+	spriteType = {
+		name = "homepage"
+		texturefile = "gfx//interface//icon_homepage.dds"
+		noOfFrames = 1
+		
 	}
 	spriteType = {
 		name = "GFX_icon_font_gold"
@@ -549,10 +526,9 @@ bitmapfonts = {
 		g = { 176 176 176 }	#Grey, used when something is not possible ("greyed out")
 		Y = { 255 189 0 }	#Yellow, used for tooltips for a neutral effect
 		T = { 0 255 239 }	#Turquoise, unused
-		O = { 255 160 0 }	#Orange, used for anything related to branching missions
+		O = { 255 130 0 }	#Orange, unused
 		l = { 154 193 75 }	#Lime, Multiplayer
 		P = { 112 41 99 }	#Purple, used for Byzantium
-		V = { 250 182 255 }	#Violet, used for debug text
 		J = { 0 168 107 }	#Jade, used for Mercs without Army Professionalism cost
 	}
 
